@@ -53,6 +53,9 @@ $(call inherit-product, vendor/aosp/config/common/configs.mk)
 # Branding
 $(call inherit-product, vendor/aosp/config/branding.mk)
 
+# Elegance
+include vendor/overlays/Elegance/elegance.mk
+
 # Fonts
 $(call inherit-product, vendor/aosp/config/common/fonts.mk)
 
